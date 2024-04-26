@@ -4,14 +4,7 @@ import { FaInstagram } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import logo from "../assets/picturatti_logo.svg";
 import { Link } from "react-scroll";
-import {
-  Sheet,
-  SheetContent,
-  SheetDescription,
-  SheetHeader,
-  SheetTitle,
-  SheetTrigger,
-} from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { useState } from "react";
 
 const Navbar = () => {
@@ -74,6 +67,17 @@ const Navbar = () => {
                   className="mr-7 p-3 text-lg text-white hover:bg-white hover:text-black hover:font-bold"
                 >
                   Gallery
+                </Link>
+                <Link
+                  onClick={() => setOpenMenu(false)}
+                  to="contact"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={500}
+                  className="mr-7 p-3 text-lg text-white hover:bg-white hover:text-black hover:font-bold"
+                >
+                  Get in touch
                 </Link>
               </ul>
             </nav>

@@ -7,6 +7,7 @@ import {
   MdOutlineArrowForwardIos,
 } from "react-icons/md";
 import Navbar from "./Navbar";
+import { Link } from "react-scroll";
 
 const Carousel = () => {
   const slides = [slide1, slide2, slide3];
@@ -57,9 +58,16 @@ const Carousel = () => {
               </span>
             </h1>
 
-            <button className="text-white bg-red-400/90 p-4 w-full lg:w-1/3 hover:bg-transparent hover:border-red-400 hover:border-2 duration-500 ">
+            <Link
+              to="gallery"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+              className="text-white text-center bg-red-400/90 p-4 w-full lg:w-1/3 hover:bg-transparent hover:border-red-400 hover:border-2 duration-500 "
+            >
               View More
-            </button>
+            </Link>
           </div>
 
           <div className="w-[7%] lg:w-[5%] flex flex-col gap-12">

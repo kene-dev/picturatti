@@ -9,6 +9,7 @@ import { motion } from "framer-motion";
 import GalleryPreview from "./components/GalleryPreview";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
+import Contact from "./components/Contact";
 
 function App() {
   const imageAnimate = {
@@ -21,7 +22,6 @@ function App() {
   };
   return (
     <>
-      {/* <Navbar /> */}
       <Carousel />
       <About />
       <motion.div
@@ -71,6 +71,7 @@ function App() {
         </div>
       </section>
       <GalleryPreview />
+      <Contact />
       <Footer />
     </>
   );
