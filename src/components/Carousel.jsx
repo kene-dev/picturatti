@@ -59,14 +59,14 @@ const Carousel = () => {
             </h1>
 
             <Link
-              to="gallery"
+              to="about"
               spy={true}
               smooth={true}
               offset={-100}
               duration={500}
               className="text-white text-center bg-red-400/90 p-4 w-full lg:w-1/3 hover:bg-transparent hover:border-red-400 hover:border-2 duration-500 "
             >
-              View More
+              Explore
             </Link>
           </div>
 

@@ -15,9 +15,9 @@ const Contact = () => {
             className="bg-transparent h-[50px] border-[1px] border-[#303342] p-2 !focus-visible:border-none !focus-visible:outline-none !focus-visible:ring-0 !active:ring-0 !active:outline-none !ring-offset-0 !active:border-none text-white"
           />
           <Input
-            type="email"
-            placeholder="Email"
-            className="bg-transparent h-[50px] border-[1px] border-[#303342] p-2 !focus-visible:border-none !focus-visible:outline-none !focus-visible:ring-0 !active:ring-0 !active:outline-none !ring-offset-0 !active:border-none text-white"
+            type="number"
+            placeholder="Phone number"
+            className="bg-transparent h-[50px] border-[1px] border-[#303342] p-2 !focus-visible:border-none !focus-visible:outline-none !focus-visible:ring-0 !active:ring-0 !active:outline-none !ring-offset-0 !active:border-none text-white appearance-none [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-non"
           />
 
           <Textarea
@@ -33,8 +33,8 @@ const Contact = () => {
         <div className="w-full h-max flex flex-col gap-3 text-white">
           <h1>INFO</h1>
           <div className="w-full flex flex-col gap-2 mb-14 font-thin">
-            <p>252 Edison St. Salt Lake City, Utah</p>
-            <p>+1 801 467 2207</p>
+            <p>29, Orange Street. Lewiston, ME 04240</p>
+            <p>(423) 491 6521</p>
           </div>
 
           <h1>WORKING HOURS</h1>

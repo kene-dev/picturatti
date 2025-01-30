@@ -10,6 +10,7 @@ import GalleryPreview from "./components/GalleryPreview";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Contact from "./components/Contact";
+import { Link } from "react-scroll";
 
 function App() {
   const imageAnimate = {
@@ -64,9 +65,16 @@ function App() {
             situations.
           </p>
           <div className="flex flex-col space-y-4 sm:flex-row sm:items-center sm:justify-center sm:space-y-0">
-            <button className="text-white bg-red-400/90 p-4 w-full lg:w-1/4 hover:bg-transparent hover:border-red-400 hover:border-2 duration-500 uppercase text-sm ">
-              Show My Works
-            </button>
+          <Link
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+            className="text-white text-center text-sm bg-red-400/90 p-4 w-full lg:w-1/4 hover:bg-transparent hover:border-red-400 hover:border-2 duration-500 uppercase cursor-pointer"
+          >
+            Get in Touch
+          </Link>
           </div>
         </div>
       </section>

@@ -1,11 +1,11 @@
 import React from "react";
 import library from "../assets/Noir/library.jpg";
 import { MdRemoveRedEye } from "react-icons/md";
-import { FaStar } from "react-icons/fa";
+import { FaStar, FaLightbulb } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const reasons = [
-  { text: "CREATIVE", icon: <MdRemoveRedEye className="w-4 h-4 text-white" /> },
+  { text: "CREATIVE", icon: <FaLightbulb className="w-4 h-4 text-white" /> },
   { text: "INSIGHT", icon: <MdRemoveRedEye className="w-4 h-4 text-white" /> },
   { text: "QUALITY", icon: <FaStar className="w-4 h-4 text-white" /> },
 ];

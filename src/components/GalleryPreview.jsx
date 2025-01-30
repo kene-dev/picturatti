@@ -80,9 +80,9 @@ const GalleryPreview = () => {
         </div>
       </div>
 
-      <button className="text-white bg-red-400/90 p-4 w-full lg:w-1/5 hover:bg-transparent hover:border-red-400 hover:border-2 duration-500 uppercase text-sm ">
+      {/* <button className="text-white bg-red-400/90 p-4 w-full lg:w-1/5 hover:bg-transparent hover:border-red-400 hover:border-2 duration-500 uppercase text-sm ">
         View More
-      </button>
+      </button> */}
     </motion.div>
   );
 };
